@@ -1,0 +1,45 @@
+.tituloContato {
+    font-family: "Source Sans Pro";
+    color: #FF471A;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 0%;
+}
+
+.conteudo {
+    margin-left: 10%;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    width: 90%;
+}
+
+.linhaPadrao {
+    border-bottom: 3px solid #FF471A;
+    width: 90%;
+    margin-bottom: 1%;
+}
+
+.texto {
+    font-family: "Source Sans Pro";
+    color: black;
+    font-weight: normal;
+    font-size: medium;
+    margin-bottom: 0%;
+}
+
+.contatos {
+    position: absolute;
+    margin-left: 5%;
+    width: 95%;
+}
+
+@media only screen and (max-width: 768px) {
+    .conteudo {
+        margin-right: 0%;
+        width: 90%;
+    }
+    .contatos {
+        margin-left: 5%;
+        width: 70%;
+    }
+}

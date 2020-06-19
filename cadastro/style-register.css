@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Ubuntu:300,400,500,700");
+.principal {
+    margin-top: 200px;
+}
+
+.principal .campos {
+    border-radius: 3%;
+    background-color: #38610B;
+    width: 500px;
+    padding: 35px;
+    margin-left: 37%;
+}
+
+.principal .campos label {
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+}
+
+.principal .campos .form input {
+    width: 400px;
+}
+
+.cadastrar {
+    padding: 2px;
+    width: 196px;
+}
+
+.limpar {
+    padding: 2px;
+    width: 196px;
+}
+
+@media only screen and (max-width: 810px) {
+    .principal .campos {
+        border-radius: 3%;
+        background-color: #38610B;
+        width: 500px;
+        padding: 35px;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .principal .campos {
+        border-radius: 3%;
+        background-color: #38610B;
+        width: 500px;
+        padding: 35px;
+        margin-left: 0%;
+    }
+    .principal .campos {
+        border-radius: 3%;
+        background-color: #38610B;
+        width: 100%;
+        padding: 35px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .principal .campos {
+        border-radius: 3%;
+        background-color: #38610B;
+        width: 100%;
+        padding: 35px;
+    }
+    .cadastrar {
+        width: 100%;
+    }
+    .limpar {
+        width: 100%;
+    }
+    .principal .campos .form input {
+        width: 100%;
+    }
+    .principal .campos .form input {
+        width: 100%;
+    }
+}

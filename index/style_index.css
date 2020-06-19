@@ -1,0 +1,63 @@
+.textoPadrao {
+    font-family: "Source Sans Pro";
+    color: #FF471A;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 0%;
+}
+
+.conteudo {
+    margin-left: 10%;
+    margin-top: 150px;
+    margin-bottom: 0%;
+    width: 90%;
+}
+
+figcaption {
+    font-family: "Source Sans Pro";
+    color: #FF471A;
+    font-weight: bold;
+    font-size: medium;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.colunaOfertas {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+.rowOfertas::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.linhaPadrao {
+    border-bottom: 3px solid #FF471A;
+    width: 90%;
+    margin-bottom: 1%;
+}
+
+.preferidos {
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .conteudo {
+        margin-right: 0%;
+        margin-left: 10%;
+        width: 90%;
+    }
+    .colunaOfertas {
+        float: left;
+        width: 50%;
+        position: relative;
+    }
+    .rowOfertas::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
